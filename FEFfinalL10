@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+       <h1>Peter Goldstein Full Stack Web Developer Student</h1>
+      <title>FEFL10HandsOn</title>
+   </head>
+   <body>
+
+        <ul id="repositories" class="list-group"></ul>
+        <button onclick="loadRepo()" class="btn btn-info">
+          Push for repos
+        </button>
+
+        <a href="https://www.linkedin.com/">My linked in account</a>echo "# miniature-octo-memory" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git remote add origin https://github.com/pgold2019/miniature-octo-memory.git
+        git push -u origin master
+
+      <form>
+         <button type="submit" formaction="https://www.w3docs.com">Click me</button>
+      </form>
+   </body>
+</html>
